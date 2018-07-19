@@ -30,6 +30,7 @@ import static javax.xml.bind.DatatypeConverter.parseDateTime;
         @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Topic"),
         @ActivationConfigProperty(propertyName = "subscriptionDurability", propertyValue = "Durable"),
         @ActivationConfigProperty(propertyName = "subscriptionName", propertyValue = "invoice"),
+        @ActivationConfigProperty(propertyName = "clientId", propertyValue = "xyz-app-enterprise-event-bus"),
         @ActivationConfigProperty(propertyName = "alwaysSessionAsync", propertyValue = "false")
 })
 @SuppressWarnings("unused")
